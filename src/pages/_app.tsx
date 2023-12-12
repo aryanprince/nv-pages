@@ -6,7 +6,7 @@ import "~/styles/globals.css";
 
 import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"], display: "swap" });
+const inter = Inter({ subsets: ["latin"] });
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
